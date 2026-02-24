@@ -13,8 +13,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LILI ",
-  description: "LILI Band",
+  metadataBase: new URL("https://lili-blond.vercel.app"),
+  title: "LILI",
+  description: "LILI Band - Alternative Rock",
+  openGraph: {
+    title: "LILI",
+    description: "LILI Band - Alternative Rock",
+    images: [
+      {
+        url: "/img/logo.png",
+        width: 512,
+        height: 512,
+        alt: "LILI Band Logo",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LILI",
+    description: "LILI Band - Alternative Rock",
+    images: ["/img/logo.png"],
+  },
 };
 
 export default function RootLayout({
