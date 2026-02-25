@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "LILI",
     description: "LILI Band - Alternative Rock",
-    images: ["/img/logo.png"],
+    images: ["/img/logo-1.png"],
   },
 };
 
