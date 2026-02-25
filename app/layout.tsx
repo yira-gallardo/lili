@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "LILI Band - Alternative Rock",
     images: [
       {
-        url: "/img/logo.png",
+        url: "/img/logo-1.png",
         width: 512,
         height: 512,
         alt: "LILI Band Logo",
