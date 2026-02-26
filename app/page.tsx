@@ -73,11 +73,11 @@ export default function Home() {
         {/* Band Logo - Desktop: Centered between sections */}
         <div className="hidden md:block absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2 z-20 cursor-pointer transition-all duration-300 hover:opacity-60">
           <Image
-            src="/img/logo-negro.png"
+            src="/img/logo-negro-1.png"
             alt="LILI"
-            width={500}
-            height={200}
-            className="w-[400px] lg:w-[500px] h-auto"
+            width={400}
+            height={160}
+            className="w-[300px] lg:w-[380px] h-auto"
             priority
           />
         </div>
@@ -87,7 +87,7 @@ export default function Home() {
           {/* Mobile Band Logo */}
           <div className="bg-white px-6 pt-14 pb-8 flex justify-center">
             <Image
-              src="/img/logo-negro.png"
+              src="/img/logo-negro-1.png"
               alt="LILI"
               width={300}
               height={120}
@@ -474,7 +474,7 @@ export default function Home() {
           <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-8">
             {/* Band Logo */}
             <Image
-              src="/img/logo-blanco.png"
+              src="/img/logo-blanco-1.png"
               alt="LILI"
               width={150}
               height={60}
@@ -507,7 +507,7 @@ export default function Home() {
           <div className="w-1/2 bg-black flex flex-col items-center justify-center p-16">
             {/* Band Logo */}
             <Image
-              src="/img/logo-blanco.png"
+              src="/img/logo-blanco-1.png"
               alt="LILI"
               width={300}
               height={120}
